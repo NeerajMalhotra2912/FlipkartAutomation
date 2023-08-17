@@ -9,7 +9,7 @@ public class SampleTest {
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        driver.get("https://qavalidation.com/2018/08/pom-xml-to-run-selenium-or-appium-tests.html/");
+        driver.get("https://flipkart.com");
 
         Thread.sleep(3000);
         System.out.println("Hello Automation");
